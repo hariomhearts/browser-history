@@ -1,0 +1,77 @@
+.list-card {
+  display: flex;
+  list-style-type: none;
+  padding: 10px;
+}
+
+.time {
+  font-size: 12px;
+  color: #64748b;
+  font-family: 'Roboto';
+  font-weight: bold;
+  padding-right: 20px;
+}
+.icon-name-card {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  height: 24px;
+}
+.list-detail-card {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  font-family: 'Roboto';
+  color: #475569;
+  font-size: 12px;
+  font-weight: bold;
+}
+.domain-url {
+  font-family: 'Roboto';
+  color: #afb5be;
+  font-size: 12px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+.delete-btn {
+  background-color: #ffffff;
+  outline: none;
+  border-style: none;
+  cursor: pointer;
+}
+.url-name-card {
+  display: flex;
+  padding-left: 20px;
+}
+@media screen and (max-width: 767px) {
+  .list-card {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .icon-name-card {
+    margin-left: 0px;
+  }
+  .logo {
+    height: 20px;
+  }
+  .url-name-card {
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    margin: 0px;
+  }
+  .icon-name-card {
+    align-items: flex-start;
+  }
+  .title {
+    margin: 0px;
+  }
+  .domain-url {
+    padding: 0px;
+    margin: 2px;
+  }
+}
